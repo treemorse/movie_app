@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <layout class="QVBoxLayout" name="FilterLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="1" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="ScoreLabel">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;Year&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>SCORE</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="RuntimeLabel">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;Year&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>RUNTIME</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="GenreLabel">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;Year&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>GENRE</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="YearLabel">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;Year&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>YEAR</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="DirectorLabel">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;Year&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>DIRECTOR</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QComboBox" name="YearCbox">
+          <item>
+           <property name="text">
+            <string>1915-2021</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1915-1940</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1940-1960</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1960-1980</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1980-1990</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1990-2000</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2000-2010</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2010-2021</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="ScoreCbox">
+          <item>
+           <property name="text">
+            <string>0-10</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>0-1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1-2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2-3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>3-4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>4-5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>5-6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>6-7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>7-8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>8-9</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>9-10</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QComboBox" name="GenreCbox">
+          <item>
+           <property name="text">
+            <string>Any</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QComboBox" name="RuntimeCbox">
+          <item>
+           <property name="text">
+            <string>0-450 min</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>0-100 min</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>100-200 min</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>200-300 min</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>300-450 min</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QComboBox" name="DirectorCbox">
+          <property name="minimumSize">
+           <size>
+            <width>119</width>
+            <height>0</height>
+           </size>
+          </property>
+          <item>
+           <property name="text">
+            <string>Any</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="GeneratorLayout">
+        <item>
+         <widget class="QPushButton" name="filterButton">
+          <property name="text">
+           <string>Filter</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="RandomGenerator">
+          <property name="text">
+           <string>Generate Random</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="ToolLayout">
+      <item>
+       <widget class="QLabel" name="MOVIElabel">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="detailsButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Show Details</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ExitButton">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTableView" name="tableView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="tabletTracking">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuOpen">
+    <property name="title">
+     <string>Open</string>
+    </property>
+   </widget>
+   <addaction name="menuHelp"/>
+   <addaction name="menuOpen"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="About">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionChoose_file">
+   <property name="text">
+    <string>Choose file</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
